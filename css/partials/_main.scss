@@ -6,3 +6,66 @@
 .cards-section {
     width: 100vh;
 }
+
+.main-section {
+    display: flex;
+    width: 100%;
+
+        .text-main {
+            width: 95%;
+            align-items: right;
+            margin-left: 150px;
+        }
+}
+
+
+
+
+// .video-container{ 
+//         .video-principal {
+//             width: 100%;
+//             object-fit: cover;
+//             border: 5px dashed black;
+//     }
+// }
+
+.video-container {
+    position: relative;
+
+    .video-principal {
+                width: 100%;
+                object-fit: cover;
+                border: 5px dashed black;
+    }
+
+    .text-video {
+                position: absolute;;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+    }
+}
+
+
+.display-list-footer {
+    display: flex;
+    padding: 25px;
+
+        .flex-list-footer {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 40px;
+            margin: 45px;
+        }
+
+        ul{
+            list-style: none;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+}
