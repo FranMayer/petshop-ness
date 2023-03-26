@@ -11,10 +11,16 @@
     display: flex;
     width: 100%;
 
+        .star {
+            margin-top: 25px;
+            margin-left: 25px;
+        }
+
         .text-main {
             width: 95%;
             align-items: right;
-            margin-left: 150px;
+            margin-left: 80px;
+            margin-top: 30px;
         }
 }
 
