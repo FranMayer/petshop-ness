@@ -43,6 +43,7 @@
 
 .video-container {
   position: relative;
+  margin-top: 70px;
 }
 .video-container .video-principal {
   width: 100%;
