@@ -1,0 +1,36 @@
+.main-articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.ajustador {
+    border: 3px dashed black;
+    width: auto;
+    padding: 15px;
+
+}
+
+.ajustador img {
+    width: 350px;
+    height: 350;
+}
+
+h3 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+
+
